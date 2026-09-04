@@ -10,7 +10,7 @@
 > 
 > **Group:** U4225
 > 
-> **Author:** Seregin Artem Aleksandрович
+> **Author:** Seregin Artem Aleksandrovich
 > 
 > **Lab:** Lab1
 > 
