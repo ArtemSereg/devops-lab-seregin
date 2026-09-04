@@ -80,3 +80,10 @@
 рисунок 9 - команды по работе с томами
 
 ### Создание Dockerfile
+
+На данном этапе был воспроизведен пример по созданию dockerfile, после которого запустили контейнер. На скринах ниже можно заметить, что сначала, при проверке работы, вышла ошибка. Ошибка заключалась в том, что старая версия Flask не смогла подружиться с новой версией библиотеки Werkzeug, которую Docker автоматически скачал из интернета. Из-за этого приложение падало сразу при запуске. После этого вручную прописали в requirements.txt старую, совместимую версию Werkzeug==2.2.2, пересобрал образ и заново запустили контейнер.
+
+<img width="606" height="562" alt="image" src="https://github.com/user-attachments/assets/195fe492-0c41-4eab-a096-8c58b221211c" />
+<img width="887" height="750" alt="image" src="https://github.com/user-attachments/assets/348817a8-fe17-422d-8f7c-47e0a64a8843" />
+<img width="864" height="525" alt="image" src="https://github.com/user-attachments/assets/5b6c1f87-9880-4d78-9305-f0ecbddcf167" />
+
