@@ -1,0 +1,10 @@
+admin
+wp-admin
+phpmyadmin
+.env
+backup.sql
+index.php.bak
+index.php.old
+index.php.backup
+main.bak
+config.php
