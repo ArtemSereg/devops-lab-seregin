@@ -55,4 +55,10 @@
 <img width="1310" height="562" alt="image" src="https://github.com/user-attachments/assets/0bd007d0-2246-4ccf-9d90-96920f708364" />
 <img width="1273" height="617" alt="image" src="https://github.com/user-attachments/assets/04debed8-4258-4459-b09d-8a6cdb785786" />
 
+---
+
+## Лабораторная работа со звездочкой
+
+## # 4. Тестирование пайплайна
+
 
