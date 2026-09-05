@@ -59,6 +59,18 @@
 
 ## Лабораторная работа со звездочкой
 
-## # 4. Тестирование пайплайна
+## # Настройка деплоя для разных веток
 
+Для настройки деплоя нужно было доработать файл docker-build.yml, где указал условный деплой для разных веток.
+<img width="618" height="750" alt="image" src="https://github.com/user-attachments/assets/38c6db6c-3485-4c25-953c-bc71c7d72d62" />
+---
+
+После этого была создана ветка develop и для нее запустили деплой и можно заметить, что деплой для ветки develop применился с учетом настроек (пропустился этап Deploy to Production).
+<img width="1165" height="486" alt="image" src="https://github.com/user-attachments/assets/d0043ede-ce82-4384-bf9a-7f36d0f2fda6" />
+<img width="1877" height="903" alt="image" src="https://github.com/user-attachments/assets/8b71a555-6644-486e-8df9-43c2501bac41" />
+---
+
+Такой же процесс повторили для ветки main и видим, что деплой произошел ровно для ветки main, а этап Deploy to Development пропустился.
+<img width="683" height="306" alt="image" src="https://github.com/user-attachments/assets/3bbd73bf-017e-4aec-9758-308be0ac8544" />
+<img width="1888" height="916" alt="image" src="https://github.com/user-attachments/assets/e54c0434-c2e8-4fdf-a9fe-483dc9f81097" />
 
