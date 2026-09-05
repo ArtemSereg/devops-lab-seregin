@@ -1,8 +1,9 @@
 name: Build and Push Docker Image
 
+# Настройка запуска для обеих веток (main и develop)
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "main", "develop" ]
 
 jobs:
   build-and-push:
@@ -28,5 +29,12 @@ jobs:
         push: true
         tags: ${{ secrets.DOCKER_USERNAME }}/my-flask-app:latest
 
-    - name: Deploy step
-      run: echo "Application deployed successfully!"
+    # Условный деплой для ветки main
+    - name: Deploy to Production
+      if: github.ref == 'refs/heads/main'
+      run: echo "Deploying to production server..."
+
+    # Условный деплой для ветки develop
+    - name: Deploy to Development
+      if: github.ref == 'refs/heads/develop'
+      run: echo "Deploying to development server..."
