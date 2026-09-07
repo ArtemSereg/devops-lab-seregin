@@ -6,7 +6,7 @@
 > 
 > **Course:** [Введение в веб технологии] (https://itmo-ict-faculty.github.io/introduction-in-web-tech/)
 > 
-> **Year:** 2026/2027
+> **Year:** 2025/2026
 > 
 > **Group:** U4225
 > 
